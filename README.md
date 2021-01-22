@@ -1,5 +1,6 @@
-
 ## 概述
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flucyxss%2Fsec_check.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Flucyxss%2Fsec_check?ref=badge_shield)
+
 
 `xsec-checker`是一款服务器安全检测的辅助工具，由GO语言开发，天生支持跨平台，同一份代码可以交叉编译出linux与windows平台下的可执行文件，且无任何库的依赖。
 
@@ -206,3 +207,7 @@ PKG_CONFIG_PATH=${YARA_SRC}/x86_64-w64-mingw32/lib/pkgconfig \
 go build -ldflags '-extldflags "-static"' --tags yara_static --tags no_pkg_config --tags yara3.7 main.go
 ```
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flucyxss%2Fsec_check.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Flucyxss%2Fsec_check?ref=badge_large)
